@@ -1,7 +1,6 @@
 import React from 'react'
-import bannerimg from '../../assets/bannerimg.png'
 
-function ProjectCard({title,description}) {
+function ProjectCard({title,description,bannerimg}) {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-black shadow-xl shadow-slate-900 rounded-2xl">
       <img className="p-4" src={bannerimg} alt="" />
