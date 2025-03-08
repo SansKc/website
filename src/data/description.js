@@ -8,19 +8,22 @@ export const description = [
     title: "UI/UX For Garden Company",
     description: "I created this project in Figma. ",
     bannerimg: figma,
+    path:"https://github.com/SansKc/websites",
   },
   {
     id: 2,
-    title: "Youtube Clone",
+    title: "Image Detection Project using YOLO",
     description:
-      "this is a bloggin website created in next js and used some component library used some component library",
+      "I created this project during my years in my bachelors for my major project. This was done using YoloV8 Algorithm",
     bannerimg: ai,
+    path:"https://github.com/SansKc/website",
   },
   {
     id: 3,
-    title: "Netflix Clone",
+    title: "Website Development",
     description:
-      "this is a blogging website created this ijsdjf l in next js and used some component library used some component library",
+      "I created this portfolio project showcasing my experiences and projects.",
     bannerimg: web,
+    path:"https://github.com/SansKc/website",
   },
 ];
