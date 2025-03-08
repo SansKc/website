@@ -3,7 +3,7 @@ import bannerimg from '../../assets/bannerimg.png'
 
 function ProjectCard({title,description}) {
   return (
-    <div className="p-3 md:p-6 flex flex-col w-80 bg-[#01291c] shadow-xl shadow-slate-900 rounded-2xl">
+    <div className="p-3 md:p-6 flex flex-col w-80 bg-black shadow-xl shadow-slate-900 rounded-2xl">
       <img className="p-4" src={bannerimg} alt="" />
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}
