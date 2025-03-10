@@ -1,7 +1,10 @@
-import React from 'react'
+import { useState } from 'react'
+import Modal from '../Model/Modal'
 
 function Newsletter() {
+  const [showModal,setShowModal]=useState(false)
   return (
+    
     <div className='w-full py-16 text-white px-4'>
     <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
       <div className='lg:col-span-2 my-4'>
@@ -17,7 +20,24 @@ function Newsletter() {
             type='email'
             placeholder='Enter Email'
           />
-          <button className='bg-[#00df9a] hover:bg-[#87ffd9]  text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-'>
+           <Modal isVisible={showModal} onClose={() => setShowModal(false)}>
+        <h3 className="text-xl font-semibold text-gray-900 mb-5 pt-3 px-2">
+          Text Modal
+        </h3>
+        <p className="text-gray-800 px-2 py-2">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </Modal>
+          <button className='bg-[#00df9a] hover:bg-[#87ffd9]  text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-2'
+          onClick={()=>{setShowModal(true)}}>
             Notify Me
           </button>
         </div>

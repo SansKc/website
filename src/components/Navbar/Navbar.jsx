@@ -1,6 +1,7 @@
-import React, { useState} from "react";
+import  { useState} from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import useMediaQuery from "../../hooks/useMediaQuery";
+
 
 
 const Navbar = () => {

@@ -7,11 +7,14 @@ import Newsletter from "./components/Newsletter/Newsletter.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 
+
 function App() {
+
+  
   return  (
     <div>
     
-    
+   
     <Navbar/>
     <Hero/>
     <About/>
