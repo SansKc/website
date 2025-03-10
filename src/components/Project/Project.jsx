@@ -10,9 +10,7 @@ function Project() {
       <div className="py-12 px-8 flex flex-wrap gap-15 justify-center">{description.map(item=>(
         <ProjectCard
         key={item.id}
-        title={item.title}
-        description={item.description}
-        bannerimg={item.bannerimg}
+        {...item}
         />
 
       ))}</div>
