@@ -11,9 +11,9 @@ const Navbar = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
-      <ul className="hidden md:flex">
+    <div className="fixed top-0 left-0 w-full z-50 bg-black flex justify-around items-center h-24 mx-auto px-4 text-white">
+      <h1 className="w-full text-3xl font-bold text-[#00df9a] ml-30 md:ml-60 lg:ml-70">REACT.</h1>
+      <ul className="hidden md:flex mr-10 md:mr-60 lg:mr-70  ">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
         <li className="p-4">Resources</li>
