@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 w-full z-50 bg-black flex justify-around items-center h-24 mx-auto px-4 text-white">
-      <h1 className="w-full text-3xl font-bold text-[#00df9a] ml-30 md:ml-60 lg:ml-70">REACT.</h1>
+      <h1 className="w-full text-3xl font-bold text-[#00df9a] ml-5 md:ml-15 lg:ml-20">REACT.</h1>
       <ul className="hidden md:flex mr-10 md:mr-60 lg:mr-70  ">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
