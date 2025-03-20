@@ -5,6 +5,7 @@ import About from "./components/AboutMe/About.jsx";
 import Project from "./components/Project/Project.jsx";
 import Newsletter from "./components/Newsletter/Newsletter.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import Carousel from "./components/Carousel/Carousel.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Carousel/>
       <Newsletter />
       <Project />
       <Footer />
