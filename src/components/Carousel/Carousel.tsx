@@ -23,7 +23,7 @@ function Carousel() {
               {/* Image Container */}
               <div className="relative h-full w-full">
                 {/* Light Blue Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-b from-purple-500/10 to-purple-900/40 z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-b from-purple-500/0 to-purple-900/40 z-10"></div>
 
                 {/* Image */}
                 <img
